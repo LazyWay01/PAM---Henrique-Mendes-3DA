@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
-import Blast from './assets/img/blast.jpg';
 
 const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
@@ -84,7 +83,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/blast.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>1. Blast</Text>
@@ -93,7 +92,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Tatsumaki.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>2. Tatsumaki</Text>
@@ -102,7 +101,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Silver Fang.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>3. Silver Fang</Text>
@@ -111,7 +110,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Atomic Samurai.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>4. Atomic Samurai</Text>
@@ -120,7 +119,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Child Emperor.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>5. Child Emperor</Text>
@@ -129,7 +128,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Metal Knight.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>6. Metal Knight</Text>
@@ -138,7 +137,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/King.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>7. King</Text>
@@ -147,7 +146,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Zombieman.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>8. Zombieman</Text>
@@ -156,7 +155,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Drive Knight.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>9. Drive Knight</Text>
@@ -165,7 +164,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Pig God.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>10. Pig God</Text>
@@ -174,7 +173,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Darkshine.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>11. Darkshine</Text>
@@ -183,7 +182,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Watchdog Man.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>12. Watchdog Man</Text>
@@ -192,7 +191,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Flash Flashy.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>13. Flash Flashy</Text>
@@ -201,7 +200,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Genos.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>14. Genos</Text>
@@ -210,7 +209,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Tank-Top Master.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>15. Tank-Top Master</Text>
@@ -219,7 +218,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Metal Bat.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>16. Metal Bat</Text>
@@ -228,7 +227,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={require('assets/img/Puri-Puri Prisoner.jpg')}
+            source={logo}
           />
           {'\n'}
           <Text style={styles.item}>17. Puri-Puri Prisoner</Text>
