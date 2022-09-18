@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import Blast from './assets/img/blast.jpg';
 
 const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
@@ -53,6 +54,7 @@ const styles = StyleSheet.create({
   imagem: {
     width: 100,
     height: 100,
+    borderRadius: 5,
   },
   btn: {
     color: '#fff',
@@ -82,155 +84,154 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/blast.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>1.Blast</Text>
+          <Text style={styles.item}>1. Blast</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Tatsumaki.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>2.</Text>
+          <Text style={styles.item}>2. Tatsumaki</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Silver Fang.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>3.</Text>
+          <Text style={styles.item}>3. Silver Fang</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Atomic Samurai.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>4.</Text>
+          <Text style={styles.item}>4. Atomic Samurai</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Child Emperor.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>5.</Text>
+          <Text style={styles.item}>5. Child Emperor</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Metal Knight.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>6.</Text>
+          <Text style={styles.item}>6. Metal Knight</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/King.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>7.</Text>
+          <Text style={styles.item}>7. King</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Zombieman.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>8.</Text>
+          <Text style={styles.item}>8. Zombieman</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Drive Knight.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>9.</Text>
+          <Text style={styles.item}>9. Drive Knight</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Pig God.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>10.</Text>
+          <Text style={styles.item}>10. Pig God</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Darkshine.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>11.</Text>
+          <Text style={styles.item}>11. Darkshine</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Watchdog Man.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>12.</Text>
+          <Text style={styles.item}>12. Watchdog Man</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Flash Flashy.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>13.</Text>
+          <Text style={styles.item}>13. Flash Flashy</Text>
         </Text>
 
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={{
-              uri: 'https://reactnative.dev/img/tiny_logo.png',
-            }}
+            source={require('assets/img/Genos.jpg')}
           />
           {'\n'}
-          <Text style={styles.item}>14.</Text>
+          <Text style={styles.item}>14. Genos</Text>
+        </Text>
+
+        <Text style={styles.card}>
+          <Image
+            style={styles.imagem}
+            source={require('assets/img/Tank-Top Master.jpg')}
+          />
+          {'\n'}
+          <Text style={styles.item}>15. Tank-Top Master</Text>
+        </Text>
+
+        <Text style={styles.card}>
+          <Image
+            style={styles.imagem}
+            source={require('assets/img/Metal Bat.jpg')}
+          />
+          {'\n'}
+          <Text style={styles.item}>16. Metal Bat</Text>
+        </Text>
+
+        <Text style={styles.card}>
+          <Image
+            style={styles.imagem}
+            source={require('assets/img/Puri-Puri Prisoner.jpg')}
+          />
+          {'\n'}
+          <Text style={styles.item}>17. Puri-Puri Prisoner</Text>
         </Text>
       </Text> 
     </View>
