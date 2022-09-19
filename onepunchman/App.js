@@ -1,8 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 
+const array = 
+['https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Blast.jpg?raw=true', 
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Tatsumaki.jpg?raw=true', 
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Silver%20Fang.jpg?raw=true',
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Samurai%20Atomico.jpg?raw=true',
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Child%20Emperor.jpg?raw=true',
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/BofoyAnime.jpg?raw=true',
+'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/King.jpg?raw=true'];//criando tabela
+
 const logo = {
-  uri: 'https://reactnative.dev/img/tiny_logo.png',
+  uri: 'https://github.com/HenriqueMendes7/PAM---Henrique-Mendes-3DA/blob/main/onepunchman/assets/img/Blast.jpg?raw=true',
   width: 64,
   height: 64
 };
@@ -92,7 +101,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[1]}
           />
           {'\n'}
           <Text style={styles.item}>2. Tatsumaki</Text>
@@ -101,7 +110,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[2]}
           />
           {'\n'}
           <Text style={styles.item}>3. Silver Fang</Text>
@@ -110,7 +119,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[3]}
           />
           {'\n'}
           <Text style={styles.item}>4. Atomic Samurai</Text>
@@ -119,7 +128,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[4]}
           />
           {'\n'}
           <Text style={styles.item}>5. Child Emperor</Text>
@@ -128,7 +137,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[5]}
           />
           {'\n'}
           <Text style={styles.item}>6. Metal Knight</Text>
@@ -137,7 +146,7 @@ const App = () => {
         <Text style={styles.card}>
           <Image
             style={styles.imagem}
-            source={logo}
+            source={array[6]}
           />
           {'\n'}
           <Text style={styles.item}>7. King</Text>
